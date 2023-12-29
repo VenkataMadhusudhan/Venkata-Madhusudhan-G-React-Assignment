@@ -1,0 +1,156 @@
+body
+{
+margin:0;
+padding:0;
+font-family:sans-serif;
+}
+.box
+{
+ position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+width:400px;
+padding:40px;
+background:rgba(0,0,0,.8);
+box-sizing:border-box; 
+box-shadow:0 15px 25px rgba(0,0,0,.5);
+border-radius:10px;
+}
+.box h2
+{
+	margin:0 0 30px;
+	padding:0;
+	color:#fff;
+	text-align:center;
+}
+.box .inputbox
+{
+	position:relative;
+	
+}
+.box .inputbox input
+{
+	width:100%;
+	padding:10px 0;
+	font-size:16px;
+	color:#fff;
+	letter-spacing:1px;
+	margin-bottom:30px;
+	border:none;
+	border-bottom:1px solid #fff;
+	outline:none;
+	background:transparent;
+	}
+.box .inputbox label
+{
+	position:absolute;
+	top:0;
+	left:0;
+	padding:10px 0;
+	font-size:16px;
+	color:#fff;
+	pointer-events:none;
+	transition:.5s;
+}
+.box .inputbox input:focus~label,
+.box .inputbox input:valid~label
+
+{
+	top:-18px;
+	left:0;
+	color:#03a9f4;
+	font-size:12px;
+}
+.loginbutton
+{
+	background:transparent;
+	border:none;
+	outline:none;
+	color:#fff;
+	background:#03a9f4;
+	padding:10px 20px;
+	cursor:pointer;
+	border-radius:5px;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+	background-color: #000;
+	padding: 50px 0;
+	color: white;
+	position: relative;
+  }
+  
+  .footer .contentWrapper {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+  }
+  
+  .footer .menuItems {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+	margin-bottom: 20px;
+  }
+  
+
+  
+  .footer .menuItems .menuItem {
+	transition: all ease 0.3s;
+	cursor: pointer;
+	font-size: 12px;
+  }
+
+  
+  .footer .menuItems .menuItem:hover {
+	color: #00f; /* Change pink to blue */
+  }
+  
+  .footer .infoText {
+	font-size: 12px;
+	line-height: 20px;
+	opacity: 0.5;
+	text-align: center;
+	max-width: 800px;
+	margin-bottom: 20px;
+  }
+  
+
+  
+  .footer .socialIcons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+  }
+  
+  .footer .socialIcons .icon {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #000; /* Keep it black */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: all ease 0.3s;
+  }
+  
+  .footer .socialIcons .icon:hover {
+	box-shadow: 0 0 0.625em #00f; /* Change pink to blue */
+	color: var(--blue); /* Change pink to blue */
+  }
+  
+  /* Movie Card */
+
+  
+
+
+
